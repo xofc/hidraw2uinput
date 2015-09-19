@@ -21,6 +21,7 @@ It should probably be run as superuser from /etc/rc.local
 dmesg gives
 * idVendor=0eef, idProduct=0005
 * hid-generic 0003:0EEF:0005.0004: hiddev0,hidraw0: USB HID v1.10 Device [RPI_TOUCH By ZH851] on usb-20980000.usb-1.2/input0
+
 lsusb -t
 says that the driver is 'usbhid'
 
